@@ -1,0 +1,49 @@
+formulario 
+
+
+
+
+
+
+
+	<FORM ACTION="processa.php" method="post">
+		
+
+		<label>text</label>
+		<inpult type="text" name="texto1" placeholder="Eu sou um input do tipo text">
+		
+		<br>
+
+		<label>Passoword</label>
+		<inpult type="password" name="senha">
+
+		<br>
+
+		<label>Oculto</label>
+		<inpulr type="hidden" name="informacao_oculta" value="mensagem oculta">
+
+		<br>
+
+		<label>Select</label>
+		<select name="selecao">
+			<optinon value="1">opção 1</option>
+			<optinon value="2">opção 2</option>
+			<optinon value="3">opção 3</option>
+		</select>
+
+		<br>
+		<label>Radio</label>	
+		<inpute type="radio" name="radio1" value="1">Valor 1 <br>
+		<br>
+		<inpute type="radio" name="radio1" value="1">Valor 1 <br>
+		<inpute type="radio" name="radio1" value="2">Valor 2 <br>
+
+		<br>
+		<label>checkbox</label> <br>
+		<input type=chekbox" name='ckb" value="1" checked>Valor 1 <br>
+		<input type=chekbox" name='ckb" value="2" >Valor 2 <br>
+		<input type=chekbox" name='ckb" value="3" >Valor 3 <br>
+		
+		<br>
+
+		Input type="submit" value="Enviar" name="subnit">

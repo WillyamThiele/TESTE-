@@ -1,0 +1,8 @@
+
+				borda
+
+	div{
+		margin: 10px 5 px 10px 0px
+		padding: 10px
+		border: 10px solid #000;
+	}

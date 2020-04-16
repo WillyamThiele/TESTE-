@@ -1,0 +1,56 @@
+		ESTRUTURA
+
+<header>
+
+<nav>   </nav></header>
+_______________________________
+
+	<div>
+    		<p>Conteúdo de uma div</p>
+	</div>
+
+_______________________________
+
+<article>		<aside>
+
+<section> </section>
+
+_____________________________________________
+		ESTRUTURA
+___________________↓__↓_________________________
+
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <title>Página completa</title>
+    <meta charset="UTF-8">
+ 
+</head>
+ 
+<body>
+ 
+    <!-- Cabeçalho -->
+    <header>
+ 
+        <nav></nav>
+ 
+    </header>
+ 
+    <!-- Conteúdo -->
+    <div>
+ 
+        <article>
+            <section></section>
+        </article>
+        
+        <aside></aside>
+ 
+    </div>
+ 
+    <!-- Rodapé -->
+    <footer></footer>
+ 
+</body>
+ 
+</html>

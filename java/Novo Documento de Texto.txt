@@ -1,0 +1,19 @@
+		ESTRUTURA
+
+<header>
+
+<nav>   </nav></header>
+_______________________________
+
+	<div>
+    		<p>Conteúdo de uma div</p>
+	</div>
+
+_______________________________
+
+<article>		<aside>
+
+<section> </section>
+
+
+		ESTRUTURA

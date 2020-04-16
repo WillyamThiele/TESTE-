@@ -1,0 +1,105 @@
+/* Base para o prosimo arquivos */
+
+
+*{/* celeciona tudo */
+    margin: 0;
+    padding: 0;
+    font-family:Helvetica, sans-serif;
+
+}
+
+
+
+
+
+/* teg */
+
+h1{ color: rgba(255, 255, 255, 0.800);}
+
+body{ background-color:black;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.767);
+    font-size:15px;
+    font-family:sans-serif;
+}
+header{
+    background-color:rgb(240, 197, 26);
+    height:50px; /*altura */
+    padding: 20px; /* margin interna */
+}
+
+
+
+/* ID */
+
+
+
+    
+#div←{
+    background-color:rgba(255, 207, 16, 0.800);
+    min-height: 10px;
+    width:70%;
+    float:left;
+    text-shadow: 1px -1px black; /* aplicar sompra na escrita */
+    margin:1px auto;
+    
+}
+#div→{
+    background-color:rgba(255, 204, 0, 0.568);
+    min-height: 10px;
+    width:29.8%;
+    float: right;
+    text-shadow: 1px -1px black; /* aplicar sompra na escrita */
+    margin:1px auto;
+    
+}
+#cid{ 
+    background-image: url(cid.jpg);
+    background-size:auto;
+    min-width:600px;
+    height:550px;
+    
+}
+#menu{
+    float:right;
+    margin-top: 2px;
+    border-radius:10%
+    
+
+
+
+
+ 
+}
+#menu a{
+    padding:5px;
+    
+    text-decoration:none;/* remover riscom imbaixo do link*/
+    color: rgb(255, 255, 255);
+    text-shadow: 2px -2px rgba(0,0, 255, 0.377); /* aplicar sompra na escrita */
+}
+#menu a:hover{/*qunado o rato estja em cima dele altera a cor*/
+    background-color:#665d0fa6;
+
+}
+
+footer{
+    clear: both; /*quando usar float ↑↑↑  na procima linha deve deve utilizar cliar*/
+    background-color: #92923d;
+    height:20px; /*altura */
+    text-align: center;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+/* Class */
+.conteiner{
+    width:10000px;
+    margin:5px auto; /*margin altomatica no centro */ 
+}
+.efeito{ 
+    background-color:rgba 0,0,0,0.5;
+
+}
